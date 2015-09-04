@@ -1,6 +1,8 @@
 import fresh_tomatoes
 import media
 
+#Data inputs for class instances of "movie"
+
 brazil = media.Movie("Brazil",
                      "A bureaucrat in a retro-future world tries to correct an administrative error and himself becomes an enemy of the state.",
                      "http://assets.flicks.co.nz/images/movies/poster/89/8973ba741e7bd6450d8023552f43728e_500x735.jpg",
