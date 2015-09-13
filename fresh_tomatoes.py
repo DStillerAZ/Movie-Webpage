@@ -45,7 +45,7 @@ main_page_head = '''
 
         .movie-border {
             background-color: black;
-            border-radius: 500px;
+            border-radius: 285px;
             color: #ca01fd;
             font-size: 20px;
         }
@@ -66,8 +66,8 @@ main_page_head = '''
             height: 100%;
         }
         .movie-tile {
-            margin-bottom: 20px;
-            padding-top: 20px;
+            margin: 15px 0;
+            padding: 65px;
             font-family: "ubuntu";
             color: #B8008A;
         }
@@ -144,7 +144,7 @@ main_page_content = '''
    </div>
   </div>
       {movie_tiles}
-    </div>
+      </div>
   </body>
 </html>
 '''
@@ -153,7 +153,7 @@ main_page_content = '''
 # A single movie entry html template
 movie_tile_content = '''
 
-<div class="movie-border col-md-6 col-lg-4 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
+<div class="movie-border col-md-6 col-lg-6 movie-tile text-center" data-trailer-youtube-id="{trailer_youtube_id}" data-toggle="modal" data-target="#trailer">
     <img src="{poster_image_url}" width="220" height="342">
     <h2>{movie_title}</h2>
 </div>
